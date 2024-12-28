@@ -194,7 +194,7 @@ fun BusScheduleScreen(
             Text(stopNameText)
             Text(stringResource(R.string.arrival_time))
         }
-        Divider()
+            // Divider()
         BusScheduleDetails(
             contentPadding = PaddingValues(
                 bottom = contentPadding.calculateBottomPadding()
